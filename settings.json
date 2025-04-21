@@ -1,0 +1,80 @@
+{
+    "serial": {
+        "port": "/dev/tty.usbserial-A50285BI",
+        "baudrate": 9600,
+        "timeout": 0.1,
+        "auto_detect": true
+    },
+    "display": {
+        "width": 640,
+        "height": 720,
+        "fullscreen": false,
+        "fps": 60
+    },
+    "audio": {
+        "enabled": true,
+        "music_volume": 0.5,
+        "sfx_volume": 0.8
+    },
+    "game": {
+        "max_balls": 75,
+        "ball_draw_delay": 500,
+        "winning_patterns": [
+            "horizontal",
+            "vertical",
+            "diagonal",
+            "four_corners",
+            "full_card"
+        ],
+        "default_pattern": "any"
+    },
+    "colors": {
+        "background": [
+            20,
+            20,
+            40
+        ],
+        "text": [
+            255,
+            255,
+            255
+        ],
+        "card_background": [
+            30,
+            30,
+            60
+        ],
+        "card_highlight": [
+            60,
+            60,
+            100
+        ],
+        "ball_colors": {
+            "B": [
+                65,
+                105,
+                225
+            ],
+            "I": [
+                34,
+                139,
+                34
+            ],
+            "N": [
+                255,
+                0,
+                0
+            ],
+            "G": [
+                255,
+                215,
+                0
+            ],
+            "O": [
+                138,
+                43,
+                226
+            ]
+        }
+    }
+}
